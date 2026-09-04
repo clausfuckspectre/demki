@@ -84,7 +84,7 @@ LRESULT CALLBACK KeyboardProc(int code, WPARAM wParam, LPARAM lParam)
 		return 1;
 	}
 		return CallNextHookEx(NULL, code, wParam, lParam);
-	}
+}
 
 LRESULT CALLBACK MouseProc(int code, WPARAM wParam, LPARAM lParam)
 {
